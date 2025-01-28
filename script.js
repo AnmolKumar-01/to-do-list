@@ -5,7 +5,7 @@ const button = document.querySelector('button')
 // this is used to add the task in list
 const addTask = function(){
     const task = inputBox.value;
-    if(task == ''){
+    if(task.trim() == ''){
         alert("Bro! You really don't have any task? (Task cant be empty)");
     }
     else{
